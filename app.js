@@ -1,6 +1,7 @@
 import express from 'express';
 import dotenv from "dotenv-defaults";
-import allRoute from './routes/index';
+import allRoute from './src/routes/index';
+import db from './mongo';
 import db from './mongo';
 import cors from 'cors';
 dotenv.config();
