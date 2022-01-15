@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "app.js",
   "license": "MIT",
+  "engines": {
+    "node": "14.x"
+  },
   "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
     "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
     "express": "^4.17.2",
